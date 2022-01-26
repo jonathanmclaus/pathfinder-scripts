@@ -50,7 +50,6 @@ if __name__ == "__main__":
 
     # Compute the running totals.
     for row in data:
-        print(row)
         for character in row["Characters"]:
             totals[character] += row["Total"]
 
